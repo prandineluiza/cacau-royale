@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFF8EF;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 
+-- cores do site --
+
+marrom #321810 
+marrom-claro #A66B38
+h1 #2E1A14
+p #321810 
+
+*/
+
+
+.hero{
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-principal{
+    img{
+        width: 720px;
+        height: 520px;
+    }
+}
+
+.text-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    gap: 35px;
+    margin-right: 100px;
+    h3{
+        color: #A66B38;
+        font-size: 15px;
+    }
+    h1{
+        color: #2E1A14;
+        font-size: 35px;
+    }
+    p{
+        color: #321810;
+        font-size: 20px;
+    }
+}
+
+.bt-principal{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-1{
+    padding: 15px 25px;
+    color: #fff;
+    background-color: #321810;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #321810;
+    font-size: 15px;
+}
+
+.btn-2{
+    padding: 15px 25px;
+    color: #321810;
+    background-color: #ffffff00;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #321810;
+    font-size: 15px;
+}
+
+.escolhas{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #321810;
+    margin: 12px;
+    padding: 12px;
+    color: #A66B38;
+    font-size: 20px;
+}
+
+.favoritos{
+   display: flex;
+   flex-direction: column;
+}
+
+.fav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    h1{
+        color: #2E1A14;
+        font-size: 35px;
+        margin-left: 10px;
+    }
+    a{
+        color: #A66B38;
+        font-size: 16px;
+    }
+}
+
+.itens-favs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.item-1, .item-2, .item-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    gap: 10px;
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 12px 70px;
+        color: #000;
+        background-color: #a66b3809;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+        border: 1px solid #321810;
+        font-size: 15px;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    h3{
+        color: #705C52;
+        font-size: 15px;
+    }
+    h2{
+        color: #2E1A14;
+        font-size: 22px;
+        font-weight: normal;
+    }
+    h1{
+        color: #321810;
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
+
+.banner{
+    background-image: url("imgs/banner-natal.png");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+        max-width: 550px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 22px;
+        max-width: 500px;
+        margin-bottom: 20px;
+        font-weight: lighter;
+    }
+    button{
+        padding: 15px 25px;
+        color: #fff;
+        background-color: #321810;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+        border: 1px solid #fff;
+        font-size: 15px;
+    }
+}
+
+.frase{
+    background-image: url("imgs/fundo-estrelas.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    h1{
+        display: inline-block;
+        color: #2E1A14;
+        font-size: 35px;
+    }   
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastrar.css">
+</head>
+<body>
+    <div class="inicio">
+        <div class="topo">
+            <h3>CONTA ROYALE</h3>
+            <button>Voltar ao login</button>
+        </div>
+        <h2>Cadastrar</h2>
+        <p>Faça parte do nosso universo de chocolates</p>
+        <hr class="linha-horizontal">
+    </div>
+
+    <div class="infomacoes">
+    <div class="formulario">
+
+        <div class="campo">
+            <label>Nome Completo</label>
+            <input type="text" placeholder="Digite seu nome">
+        </div>
+
+        <div class="campo">
+            <label>E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail">
+        </div>
+
+        <div class="campo">
+            <label>Data de Nascimento</label>
+            <input type="date">
+        </div>
+
+        <div class="campo">
+            <label>Telefone</label>
+            <input type="tel" placeholder="(XX)XXXXX-XXXX">
+        </div>
+
+        <div class="campo senha">
+            <label>Senha</label>
+            <div class="inputSenha">
+                <input type="password" id="senha" placeholder="Digite sua senha">
+                <button type="button" onclick="mostrarSenha('senha', this)">◉</button>
+            </div>
+        </div>
+
+        <div class="campo senha">
+            <label>Confirmar senha</label>
+            <div class="inputSenha">
+                <input type="password" id="confirmarSenha" placeholder="Confirme sua senha">
+                <button type="button" onclick="mostrarSenha('confirmarSenha', this)">◉</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    <div class="final">
+        <button>CADASTRO</button>
+    </div>
+
+    <div class="complemento">
+        <h2>Já tem uma conta? <span>Faça Login</span></h2>
+    </div>
+</body>
+</html>

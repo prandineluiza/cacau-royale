@@ -11,20 +11,17 @@
 </head>
 
 <body>
-    <div class="frete">
-        Frete grátis nas compras acima de R$ 249
-    </div>
     <header class="cabecalho">
-        <img src="imgs/logo.png" alt="">
+        <img src="imgs/logo.png" alt="Logo Cacau Royale">
         <nav class="menu">
-            <a href="#">Início</a>
+            <a href="#" class="ativo">Início</a>
             <a href="#">Sobre</a>
             <a href="#">Festividades</a>
             <a href="#">Compras</a>
         </nav>
         <div class="icones">
-            <img src="imgs/login.png" alt="">
-            <img src="imgs/carrinho.png" alt="">
+            <img src="imgs/login.png" alt="Login">
+            <img src="imgs/carrinho.png" alt="Carrinho">
         </div>
     </header>
 </body>

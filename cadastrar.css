@@ -113,17 +113,6 @@ body{
     font-size: 18px;
 }
 
-@media (max-width: 600px) {
-    .formulario {
-        grid-template-columns: 1fr;
-        gap: 25px;
-    }
-
-    .senha {
-        grid-column: span 1;
-    }
-}
-
 .final{
         display: flex;
         justify-content: center;

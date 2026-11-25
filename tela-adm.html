@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -15,84 +15,89 @@
 
 <body>
 
-    <php>
+    <div class="bem-vindo">
+        <h1>Bom dia, Alice.</h1>
+        <p>Aqui está o resumo da sua operação hoje.</p>
+    </div>
 
-        <div class="bem-vindo">
-            <h1>Bem-vindo, </h1>
-            <p>Aqui está o resumo da sua operação hoje.</p>
+    <div class="cards">
+        <div class="card">
+            <h1 class="fonte-manrope">PRODUTOS ATIVOS</h1>
+            <h2 class="fonte-comorant">12</h2>
+            <h1 class="fonte-manrope">De 15 cadastrados</h1>
         </div>
 
-        <div class="cards">
-            <div class="card">
-                <h1 class="fonte-manrope">PRODUTOS ATIVOS</h1>
-                <h2 class="fonte-comorant">12</h2>
-                <h1 class="fonte-manrope">De 15 cadastrados</h1>
-            </div>
-
-            <div class="card">
-                <h1 class="fonte-manrope">UNIDADES EM ESTOQUE</h1>
-                <h2 class="fonte-comorant">92</h2>
-                <h1 class="fonte-manrope">Em todos os produtos</h1>
-            </div>
-
-            <div class="card">
-                <h1 class="fonte-manrope">ESTOQUE BAIXO</h1>
-                <h2 class="fonte-comorant">3</h2>
-                <h1 class="fonte-manrope">Precisam de atenção</h1>
-            </div>
-
-            <div class="card">
-                <h1 class="fonte-manrope">VALOR EM ESTOQUE</h1>
-                <h2 class="fonte-comorant">R$ 10,6 Mil</h2>
-                <h1 class="fonte-manrope">Preço de venda estimado</h1>
-            </div>
+        <div class="card">
+            <h1 class="fonte-manrope">UNIDADES EM ESTOQUE</h1>
+            <h2 class="fonte-comorant">92</h2>
+            <h1 class="fonte-manrope">Em todos os produtos</h1>
         </div>
 
-        <div class="aleta-estoque">
-            <div class="atencao">
-                <div class="alerta">
+        <div class="card">
+            <h1 class="fonte-manrope">ESTOQUE BAIXO</h1>
+            <h2 class="fonte-comorant">3</h2>
+            <h1 class="fonte-manrope">Precisam de atenção</h1>
+        </div>
+
+        <div class="card">
+            <h1 class="fonte-manrope">VALOR EM ESTOQUE</h1>
+            <h2 class="fonte-comorant">R$ 10,6 Mil</h2>
+            <h1 class="fonte-manrope">Preço de venda estimado</h1>
+        </div>
+    </div>
+
+    <div class="atencao">
+        <div class="alerta-estoque">
+            <div class="alerta">
+                <div class="al-escrita">
                     <h1>ATENÇÃO NO ESTOQUE</h1>
-                    <p>Os produtos abaixo estão com estoque baixo, verifique se é necessário repor.</p>
-                    <button class="ver estoque">Ver Estoque</button>
+                    <p>Os produtos abaixo estão com estoque baixo.</p>
                 </div>
-                <div class="produto1">
-                    <img src="" alt="">
-                    <h1>Macarrons - Tradicionais</h1>
-                    <h2>4 unidades / Minimo 8</h2>
-                </div>
-                <div class="produto1">
-                    <img src="" alt="">
-                    <h1>Caixa Chocolate - Presente</h1>
-                    <h2>6 unidades / Minimo 10</h2>
-                </div>
-                <div class="produto1">
-                    <img src="" alt="">
-                    <h1>Tablete - Floresta Negra</h1>
-                    <h2>8 unidades / Minimo 12</h2>
-                </div>
+                <a href="">Ver Estoque</a>
             </div>
-
-            <div class="alerta-vali">
-                <div class="alerta">
-                    <h1>ATENÇÃO NA VALIDADE</h1>
-                    <p>Os produtos abaixo estão com validade próxima, verifique se é necessário repor.</p>
-                    <button class="ver validades">Ver Validades</button>
-                </div>
-                <div class="produto1">
-                    <h1>Macarrons - Tradicionais</h1>
-                    <h2>Validade: 10/12/2026</h2>
-                </div>
-                <div class="produto1">
-                    <h1>Caixa Chocolate - Presente</h1>
-                    <h2>Validade: 12/12/2026</h2>
-                </div>
-                <div class="produto1">
-                    <img src="" alt="">
-                    <h1>Tablete - Floresta Negra</h1>
-                    <h2>Validade: 15/12/2026</h2>
-                </div>
+            <div class="produto1">
+                <img src="imgs/choco-1.png" alt="">
+                <h1>Macarrons - Tradicionais</h1>
+                <h2>4 unidades / Minimo 8</h2>
+            </div>
+            <div class="produto2">
+                <img src="imgs/choco-2.png" alt="">
+                <h1>Caixa Chocolate - Presente</h1>
+                <h2>6 unidades / Minimo 10</h2>
+            </div>
+            <div class="produto3">
+                <img src="imgs/choco-3.png" alt="">
+                <h1>Tablete - Floresta Negra</h1>
+                <h2>8 unidades / Minimo 12</h2>
             </div>
         </div>
+
+        <div class="alerta-vali">
+            <div class="alerta">
+                <div class="aler-vali">
+                    <h1>ATENÇÃO NA VALIDADE</h1>
+                    <p>Os produtos abaixo estão com validade próxima.</p>
+                </div>
+                <a href="">Ver Validades</a>
+            </div>
+            <div class="produto1">
+                <img src="" alt="">
+                <h1>Coleção Amore</h1>
+                <h2>Validade: 10/12/2026</h2>
+            </div>
+            <div class="produto2">
+                <img src="" alt="">
+                <h1>Amor em Camadas</h1>
+                <h2>Validade: 12/12/2026</h2>
+            </div>
+            <div class="produto3">
+                <img src="" alt="">
+                <h1>Sweet Royale</h1>
+                <h2>Validade: 15/12/2026</h2>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

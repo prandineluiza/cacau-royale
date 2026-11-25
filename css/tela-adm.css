@@ -4,7 +4,7 @@
 }
 
 .body{
-    background-color: #FFF8EF;
+    background-color: #fff8ef;
 }
 
 .fonte-comorant{
@@ -61,24 +61,110 @@
     }
 }
 
-.alerta-estoque{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    color: #fff;
-}
-
 .atencao{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    gap: 2px;
-    padding: 20px;
+    gap: 5px;
+    padding: 22px;
+    color: #000;
+}
+
+.alerta-estoque{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 12px;
+    padding: 25px;
     background-color: #fff;
     color: #000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     .alerta{
+        display: flex;
+        align-items: center;
+        gap: 75px;
+        padding: 20px;
+        color: #000;
+        border-bottom: 1px solid #321810;
+        h1{
+            font-size: 25px;
+        }
+        a{
+            color: #00000066;
+            text-decoration: 2px solid underline #B99053;
+            font-size: 20px;
+            padding: 10px 10px;
+        }
+    }
+}
 
+.al-escrita{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+.produto1,
+.produto2,
+.produto3,
+.produto4{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+    width: 95%;
+    border-bottom: 1px solid #321810;
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+}
+
+.alerta-vali{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    font-size: 12px;
+    padding: 40px;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    .alerta{
+        display: flex;
+        align-items: center;
+        gap: 55px;
+        padding: 20px;
+        color: #000;
+        border-bottom: 1px solid #321810;
+        h1{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 20px;
+            font-weight: 400;
+            font-family: cursive;
+        }
+        a{
+            color: #00000066;
+            text-decoration: 2px solid underline #B99053;
+            font-size: 20px;
+            padding: 10px 10px;
+        }
     }
 }

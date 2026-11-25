@@ -1,0 +1,402 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#FFF8EF;
+}
+
+a{
+    text-decoration: none;
+}
+
+.frete{
+    background-color: #26110C;
+    color: #B99053;
+    font-size: 13px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F1E8;
+    padding: 10px 50px;
+}
+
+.cabecalho img{
+    width: 200px;
+    margin-top: 10px;
+}
+
+.cabecalho a{
+    color: #26110C;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.cabecalho a:hover{
+    color: #B99053;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icones img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    font-family: system-ui, sans-serif;
+}
+
+.menu a.ativo{
+    color: #26110C;
+}
+
+.inicio{
+    margin-top: 20px;
+    margin-left: 50px;
+    h2{
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
+
+.parte2{
+    display: flex;
+    justify-content: space-around;
+    gap: 935px;
+    margin-top: 60px;
+    h1{
+        font-size: 50px;
+        font-weight: 400;
+    }
+}
+
+hr{
+    width: 98%;
+    margin: 20px auto;
+    border: none;
+    height: 0.5px;
+    background-color: #333;
+}
+
+.carrinho{
+    display: grid;
+    grid-template-columns: 1fr 36%;
+    gap: 25px;
+    padding: 8px 3%;
+    min-height: 524px;
+}
+
+.produtos{
+    width: 100%;
+    img{
+        margin-top: 25px;
+        margin-left: 325px;
+        width: 250px;
+    }
+
+    h3{
+        font-size: 25px;
+        color: #c58b36;
+        margin-left: 390px;
+    }
+
+    h1{
+        margin-left: 300px;
+        margin-top: 15px;
+    }
+
+    h5{
+        margin-left: 170px;
+        margin-top: 15px;
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    button{
+        border: solid 2px;
+        background-color: #26110C;
+        color: white;
+        font-size: larger;
+        cursor: pointer;
+        width: 300px;
+        height: 45px;
+        margin-left: 130px;
+        margin-top: 15px;
+    }
+}
+
+.frete2{
+    background-color: #E9DCCB;
+    padding: 12px 10px;
+
+    p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    span{
+        font-size: 15px;
+    }
+}
+
+.informacao-frete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #49352B;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.informacao-frete span{
+    font-weight: bold;
+}
+
+.barra-frete{
+    width: 100%;
+    height: 2px;
+    background-color: #B9AA98;
+}
+
+.progresso{
+    width: 0%;
+    height: 100%;
+    background-color: #26110C;
+}
+
+.resumo{
+    background-color: #E9DCCB;
+    padding: 20px 12px;
+    min-height: 490px;
+}
+
+.titulo-resumo{
+    color: #B99053;
+    font-size: 11px;
+}
+
+.resumo h2{
+    font-size: 18px;
+    color: #39251E;
+    margin-top: 14px;
+    margin-bottom: 25px;
+}
+
+.valores{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #C4B6A5;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #49352B;
+}
+
+.linha strong{
+    font-size: 15px;
+    color: #26110C;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #49352B;
+}
+
+.total strong{
+    color: #26110C;
+    font-size: 15px;
+}
+
+.finalizar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #26110C;
+    color: #E9DCCB;
+    border: none;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    font-size: 12px;
+}
+
+.finalizar span:last-child{
+    font-size: 20px;
+}
+
+.resumo hr{
+    border: none;
+    border-top: 1px solid #C4B6A5;
+    margin: 20px 0;
+}
+
+.entrega,
+.cupom{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.entrega label,
+.cupom label{
+    color: #49352B;
+    font-size: 15px;
+}
+
+.campo{
+    display: flex;
+    width: 100%;
+    height: 33px;
+    background-color: white;
+    border: 1px solid #C4B6A5;
+}
+
+.campo input{
+    width: 100%;
+    min-width: 0;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 10px;
+}
+
+.campo button{
+    padding: 0 10px;
+    background-color: white;
+    border: none;
+    color: #26110C;
+    font-size: 9px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cupom{
+    margin-top: 20px;
+}
+
+.rodape{
+    background-color: #28110c;
+    color: #e8d5bd;
+    padding: 45px 3%;
+    margin-top: 40px;
+}
+
+.conteudo-rodape{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.marca-rodape{
+    width: 40%;
+}
+
+.marca-rodape h1{
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: #c58a58;
+}
+
+.marca-rodape h3{
+    font-size: 8px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: #c58a58;
+    border-top: 1px solid #8d6347;
+    text-align: center;
+    width: 240px;
+    padding-top: 5px;
+}
+
+.marca-rodape p{
+    font-size: 11px;
+    color: #967d69;
+    margin-top: 28px;
+}
+
+.links-rodape,
+.atendimento-rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.links-rodape h3,
+.atendimento-rodape h3{
+    color: #c58a58;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.links-rodape a,
+.atendimento-rodape a{
+    color: #e8d5bd;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.atendimento-rodape p{
+    font-size: 13px;
+}
+
+.final-rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+    padding: 0 30px;
+}
+
+.final-rodape p{
+    font-size: 12px;
+    color: white;
+}
+
+.politicas-rodape{
+    display: flex;
+    gap: 5px;
+}
+
+.politicas-rodape a,
+.politicas-rodape span{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}

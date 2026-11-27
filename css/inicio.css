@@ -5,7 +5,7 @@
 
 body {
     background-color: #FFF8EF;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 /* 
@@ -199,7 +199,11 @@ p #321810
     justify-content: space-between;
     align-items: center;
     padding: 60px;
-
+    @media (max-width: 600px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
     img {
         width: 350px;
         height: 350px;
@@ -317,13 +321,12 @@ p #321810
     margin-top: 40px;
 }
 
-
 .conteudo-rodape {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    margin-left: 130px;
 }
-
 
 .marca-rodape {
     width: 40%;
@@ -331,13 +334,13 @@ p #321810
 
 .marca-rodape h1 {
     font-family: Georgia, serif;
-    font-size: 36px;
+    font-size: 46px;
     font-weight: normal;
     color: #c58a58;
 }
 
 .marca-rodape h3 {
-    font-size: 8px;
+    font-size: 10px;
     font-weight: normal;
     letter-spacing: 3px;
     color: #c58a58;
@@ -348,11 +351,10 @@ p #321810
 }
 
 .marca-rodape p {
-    font-size: 11px;
+    font-size: 14px;
     color: #967d69;
-    margin-top: 28px;
+    margin-top: 39px;
 }
-
 
 .links-rodape,
 .atendimento-rodape {
@@ -374,24 +376,53 @@ p #321810
 .atendimento-rodape a {
     color: #e8d5bd;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 17px;
+}
+
+.rodape a {
+    display: inline-block;
+    width: fit-content;
+    position: relative;
+    transition: color 200ms ease;
+}
+
+.rodape a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 1px;
+    background-color: #c58a58;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 200ms ease;
+}
+
+.rodape a:hover {
+    color: #c58a58;
+}
+
+.rodape a:hover::after {
+    transform: scaleX(1.02);
 }
 
 .atendimento-rodape p {
-    font-size: 13px;
+    font-size: 17px;
+    margin-right: 110px;
 }
-
 
 .final-rodape {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 75px;
-    padding: 0 30px;
+    padding: 0 91px;
+    margin-left: 42px;
 }
 
 .final-rodape p {
-    font-size: 12px;
+    font-size: 13px;
     color: white;
 }
 
@@ -404,7 +435,7 @@ p #321810
 .politicas-rodape span {
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 @media (max-width: 600px) {
@@ -423,6 +454,9 @@ p #321810
         gap: 20px;
         margin-top: 45px;
         padding: 0;
+        p{
+            align-items: center;
+        }
     }
 
     .politicas-rodape {

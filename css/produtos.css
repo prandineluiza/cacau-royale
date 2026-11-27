@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #FFF8EF;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    background-color: #F7F1E8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .ativada{
+        color: #B99053;
+    }
+    img{
+        width: 250px;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 25px;
+    }
+    a{
+        color: #2E1A14;
+        text-decoration: none;
+        transition: 0.5s;
+        &:hover{
+            color: #B99053;
+        }
+    }
+    .adm{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        button{
+            padding: 10px;
+            background-color: #fff;
+            border: solid 1px #00000080;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+    }
+}
+
+.produtos-gerais{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    button{
+        padding: 15px;
+        background-color: #26110C;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+.text-prod{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    h1{
+        font-weight: normal;
+    }
+    p{
+        font-weight: inherit;
+    }
+}
+
+.tabela{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.colunas{
+    background-color: #FBECD8;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border: solid 1px #00000080;
+    .status{
+        display: flex;
+        gap: 35px;
+    }
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+}
+
+.prod{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border: solid 1px #00000080;
+}
+
+.nome-prod{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    .cod-nome{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        p{
+            color: #7F7468;
+        }
+    }
+    img{
+        width: 80px;
+        height: auto;
+    }
+}
+
+.descricao{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    .pd-atv{
+        background-color: #BF905D;
+        color: #26110C;
+        padding: 7px;
+        border-radius: 22px;
+    }
+}
+
+.alteracao{
+    img{
+        width: 35%;
+        height: auto;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
